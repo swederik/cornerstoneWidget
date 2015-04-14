@@ -20,10 +20,9 @@ require(['jquery', 'hammerjs',
             // and is not currently in the list of known elements
             if(scriptElement.src.match(regexp) && foundScriptElements.indexOf(scriptElement) < 0) {
               foundScriptElements.push(scriptElement);
-              console.log('Identified embeded script with info: %o', scriptElement.src);
+              //console.log('Identified embeded script with info: %o', scriptElement.src);
               var splitSrc = scriptElement.src.split("?");
               var params = splitSrc[splitSrc.length-1];
-              console.log(params);
               imageId = params.replace("image=", "");
             }
         }
