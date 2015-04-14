@@ -1,0 +1,33 @@
+{
+  "name": "cornerstoneWidget",
+  "version": "0.0.0",
+  "authors": [
+    "Erik Ziegler <erik.ziegler@ulg.ac.be>"
+  ],
+  "description": "An embeddable widget for displaying medical images",
+  "main": "dist/cornerstoneWidget.js",
+  "keywords": [
+    "medical",
+    "imaging",
+    "cornerstone",
+    "DICOM"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "cornerstone": "~0.7.3",
+    "cornerstoneTools": "~0.6.2",
+    "dicomParser": "~1.0.1",
+    "cornerstoneWADOImageLoader": "~0.5.2",
+    "cornerstoneWebImageLoader": "~0.7.2"
+  },
+  "resolutions": {
+    "dicomParser": "~1.0.1"
+  }
+}

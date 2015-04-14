@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <!-- support for mobile touch devices -->
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+    <!-- twitter bootstrap CSS stylesheet - not required by cornerstoneWidget -->
+    <link href="../bootstrap.min.css" rel="stylesheet">
+
+    <!-- include the Cornerstone widget and the image to be loaded-->
+    <script src="../../dist/cornerstoneWidget.js?image=dicomweb:http://cornerstonetech.org/images/ClearCanvas/USEcho/IM00001"></script>
+</head>
+    <body>
+        <div class="container">
+            <div class="page-header">
+                <h1>Cornerstone Widget Examples <small>DICOM image</small></h1>
+                <p>This is an example of how to use the Cornerstone widget to load a DICOM image using the <a href="https://github.com/chafey/cornerstoneWADOImageLoader">CornerstoneWADOImageLoader</a></p>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <div id="cornerstoneWidget-container">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <h2>Controls</h2>
+                    <ul>
+                        <li>Left click and drag - Adjust the window width and window center of the image</li>
+                        <li>Pan by dragging the middle mouse button</li>
+                        <li>Zoom by dragging the right mouse button</li>
+                        <li>Zoom by rolling the mouse wheel</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
